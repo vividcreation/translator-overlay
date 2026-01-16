@@ -18,3 +18,5 @@ oShortcut.Save
 
 MsgBox "デスクトップにショートカットを作成しました！", vbInformation, "完了"
 
+
+
