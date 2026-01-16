@@ -1,0 +1,15 @@
+# リアルタイム翻訳オーバーレイアプリ - 依存ライブラリ
+# インストール: pip install -r requirements.txt
+
+# スクリーンショット取得
+mss>=9.0.0
+
+# 画像処理
+Pillow>=10.0.0
+
+# OCR（文字認識）
+pytesseract>=0.3.10
+
+# 翻訳
+deep-translator>=1.11.0
+
