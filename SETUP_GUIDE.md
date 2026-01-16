@@ -57,19 +57,19 @@ py --version
 
 ---
 
-### Step 3: 翻訳ソフトのファイルを配置
+### Step 3: translator-overlayのファイルを配置
 
 1. 以下のファイルを任意のフォルダにコピーしてください：
    ```
-   翻訳ソフト/
+   translator-overlay/
    ├── main.py                 （メインプログラム）
    ├── requirements.txt        （依存ライブラリ一覧）
    └── TranslatorOverlay.bat   （起動用バッチファイル）
    ```
 
 2. 推奨の配置場所：
-   - `C:\Tools\翻訳ソフト\`
-   - `D:\Apps\翻訳ソフト\`
+   - `C:\Tools\translator-overlay\`
+   - `D:\Apps\translator-overlay\`
    - デスクトップのフォルダ など
 
 ---
@@ -80,13 +80,13 @@ py --version
    - Windowsキー + R → `cmd` と入力 → Enter
    - または、スタートメニューで「PowerShell」を検索
 
-2. 翻訳ソフトのフォルダに移動：
+2. translator-overlayのフォルダに移動：
    ```
    cd "C:\配置したフォルダのパス"
    ```
    例：
    ```
-   cd "C:\Tools\翻訳ソフト"
+   cd "C:\Tools\translator-overlay"
    ```
 
 3. 以下のコマンドを実行してライブラリをインストール：
@@ -204,7 +204,7 @@ py main.py
 ## 📁 ファイル構成
 
 ```
-翻訳ソフト/
+translator-overlay/
 ├── main.py                 # メインプログラム（編集可）
 ├── requirements.txt        # 依存ライブラリ一覧
 ├── TranslatorOverlay.bat   # 起動用バッチファイル
